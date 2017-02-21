@@ -54,10 +54,14 @@ puts (str.rjust(line_width))
 puts (str.ljust(line_width/2) + str.rjust(line_width/2))
 #  we have to divide by 2 above since there are 2 strings combined on same line
 
+
+# ANGRY BOSS PROGLEM
 puts "Your red-faced boss with steam coming from around his collar asks what do you want?"
 response = gets.chomp
 puts "WHADDAYA MEAN '#{response}'?!?! YOU'RE FIRED!!"
 
+
+# TABLE OF CONTENTS PROBLEM
 line_width = 30
 puts ("Table of Contents".center(line_width))
 puts ''
